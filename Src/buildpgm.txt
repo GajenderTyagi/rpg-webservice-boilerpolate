@@ -1,0 +1,11 @@
+             CRTSQLRPGI OBJ(*CURLIB/POSTCLOBV)            +
+                          SRCFILE(*CURLIB/QRPGLESRC)      +
+                          SRCMBR(POSTCLOBV) COMMIT(*NONE) +
+                          DBGVIEW(*SOURCE)
+
+             CRTBNDRPG  PGM(YASHWANT/POSTCLOB_T)          +
+                         SRCFILE(YASHWANT/QRPGLESRC)      +
+                         SRCMBR(POSTCLOB_T)               +
+                         DBGVIEW(*SOURCE)                 +
+                         REPLACE(*YES)
+
