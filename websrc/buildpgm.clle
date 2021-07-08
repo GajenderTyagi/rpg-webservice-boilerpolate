@@ -3,9 +3,8 @@
                           SRCMBR(POSTCLOBV) COMMIT(*NONE) +
                           DBGVIEW(*SOURCE)
 
-             CRTBNDRPG  PGM(YASHWANT/POSTCLOB_T)          +
-                         SRCFILE(YASHWANT/QRPGLESRC)      +
-                         SRCMBR(POSTCLOB_T)               +
-                         DBGVIEW(*SOURCE)                 +
+             CRTBNDRPG  PGM(*CURLIB/POSTCLOB_T)          +
+                         SRCFILE(*CURLIB/QRPGLESRC)      +
+                         SRCMBR(POSTCLOB_T)              +
+                         DBGVIEW(*SOURCE)                +
                          REPLACE(*YES)
-
