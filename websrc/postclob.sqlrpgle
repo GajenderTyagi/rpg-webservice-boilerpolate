@@ -19,7 +19,6 @@
        Dcl-c SQL_OK const('00000');
        Dcl-c Rcd const('Record Not Found');
        Dcl-c TokenKey const('Bearer *******************');
-       //Dcl-c Url const('https://visionrest.byjasco.com/api/Territory/');
        Dcl-c Url const('https://gorest.co.in/public-api/users');
 
        Dcl-pr system zoned(10:0) extproc('system');
